@@ -1,4 +1,15 @@
-# React + TypeScript + Vite
+## 运行环境
+node 22.x
+
+## 运行命令
+
+```bash
+yarn                    # 安装依赖
+yarn dev                # 本地调试
+yarn build              # 打包 & 生产环境代码
+
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

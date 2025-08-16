@@ -1,0 +1,20 @@
+.lessonClickContainer {
+    width: 800px;
+    height: 100%;
+    margin: 30px auto;
+    .lessonClickTitle {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .lessonClickContent {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    .lessonClickSummary {
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px;
+    }
+}

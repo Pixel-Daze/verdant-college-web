@@ -1,0 +1,15 @@
+.lessonBoxContainer {
+    margin: 0 auto;
+    width: 880px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+// 响应式布局,屏幕宽度小于等于768px，更换容器样式
+@media (max-width: 768px) {
+    .lessonBoxContainer {
+        width: 90%;
+        display: block;
+    }
+}

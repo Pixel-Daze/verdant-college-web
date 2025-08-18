@@ -7,6 +7,8 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin-bottom: 16px;
+    border: 5px solid #e5e5e5;
+    padding: 5px;
     &:last-child {
         margin-right: 0;
     }
@@ -21,7 +23,7 @@
         // object-fit: fill;
         // object-fit: scale-down;
         // object-position: top left;
-        object-fit: 50% 50%;
+        // object-fit: 50% 50%;
     }
     .boxCellInfo {
         padding: 10px;
@@ -39,6 +41,7 @@
             overflow: hidden; /* 隐藏溢出内容 */
             text-overflow: ellipsis; /* 显示省略号 */
             line-height: 1.5;
+            height: 147px;
         }
     }
     .boxCellGo {
